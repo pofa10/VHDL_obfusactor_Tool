@@ -1,0 +1,138 @@
+[
+	{
+		"original_signal": "c_clkperiod",
+		"obfuscated_signal" : "dmIEscdBIcEbIigxYveYNUvHJCyQLu"
+	},
+	{
+		"original_signal": "c_1ms_time",
+		"obfuscated_signal" : "CbAAokzJsHggOLjNukggFxYzOFSnhX"
+	},
+	{
+		"original_signal": "c_1ms_step",
+		"obfuscated_signal" : "iOcVWnjJjyyLkaIqRoyBrOcztatImj"
+	},
+	{
+		"original_signal": "s_millisen_cntr",
+		"obfuscated_signal" : "JATyTvwnfurkarMuAPVitdiDzsNdbZ"
+	},
+	{
+		"original_signal": "s_millisec_tick",
+		"obfuscated_signal" : "jelHSHmSEWtwMxmUWyJVWrXgSihMZX"
+	},
+	{
+		"original_signal": "i_enable",
+		"obfuscated_signal" : "cSrNJqgEuoWvjlecoaCjtEkbfdggtL"
+	},
+	{
+		"original_signal": "i_clk",
+		"obfuscated_signal" : "npuuXXSUQcmoLTQRyWGbwKWdGDhcuR"
+	},
+	{
+		"original_signal": "o_millisec_tick",
+		"obfuscated_signal" : "pqnCozObfzpmbsPybhnHDkqjbOHuWx"
+	},
+	{
+		"original_signal": "g_freq",
+		"obfuscated_signal" : "QRYwJhgcjocjhmlsVQFBDUYOgKlAJd"
+	},
+	{
+		"original_signal": "c_obs_timeint",
+		"obfuscated_signal" : "yPqlUILAmaZkROjLBfMfhLahlEFelk"
+	},
+	{
+		"original_signal": "c_bkgd_timeint",
+		"obfuscated_signal" : "ssoMmMPderLvHKyOxQDcobYxIugCkL"
+	},
+	{
+		"original_signal": "s_pulse_tdata",
+		"obfuscated_signal" : "MMipPVXvoiDrxJbkzLlhADGomAEcVS"
+	},
+	{
+		"original_signal": "s_pulsebuff_tdata",
+		"obfuscated_signal" : "MXTIwBWPdpnActpGaJwdMqeZwvjATa"
+	},
+	{
+		"original_signal": "s_redgepulse_tflag",
+		"obfuscated_signal" : "JpFGVKwZhTWgZThOYWgzOIUWoycoqj"
+	},
+	{
+		"original_signal": "s_bkgd_cntr_tdata",
+		"obfuscated_signal" : "rODUbaValjKlEUzaIWmXCkORUQRSSq"
+	},
+	{
+		"original_signal": "s_obs_cntr_tdata",
+		"obfuscated_signal" : "bULREFVOVslJjTSkSIPGJApHTJnbrU"
+	},
+	{
+		"original_signal": "c_bkgd_time",
+		"obfuscated_signal" : "cGcDdQARpOVgTMKEReVDgggtqrSSoN"
+	},
+	{
+		"original_signal": "c_obs_time",
+		"obfuscated_signal" : "frmcWAzwlqjINPhevLQVMiToBYHGiU"
+	},
+	{
+		"original_signal": "s_pulsecntr_tdata",
+		"obfuscated_signal" : "WGuQRREPvZfFnvhwNfqKXGaxXnWMDD"
+	},
+	{
+		"original_signal": "s_bkgd_pulsecnt_tdata",
+		"obfuscated_signal" : "lkWJBHMJAWqvbqjJwVvNOtqlahDPnh"
+	},
+	{
+		"original_signal": "s_bkgd_avgpulse_tdata",
+		"obfuscated_signal" : "RAdkUHgdmqYQNXbIDKTvjHHvFLFOVN"
+	},
+	{
+		"original_signal": "s_obs_pulsecnt_tdata",
+		"obfuscated_signal" : "ODtaUxltvKpEsGwfechljZLfNRzbyJ"
+	},
+	{
+		"original_signal": "s_bkgd_thravgpulse_tdata",
+		"obfuscated_signal" : "tUqNcyoUwfoldIbgaDlTJKUtfpBgTj"
+	},
+	{
+		"original_signal": "s_setuptime_tdata",
+		"obfuscated_signal" : "VBoWsjpcYNAXkJzkifotjugesniJKp"
+	},
+	{
+		"original_signal": "s_obs_done_tflag",
+		"obfuscated_signal" : "pnlhmgECzBWbwQvvWUBNEEYwBoxUpS"
+	},
+	{
+		"original_signal": "s_bkgd_done_tflag",
+		"obfuscated_signal" : "OUlfbMvvajWfjUgBrnkteyqCVqrApp"
+	},
+	{
+		"original_signal": "s_detect_tflag",
+		"obfuscated_signal" : "LYzXknQxdbjkpTnWbZoMUbZzvIUiAh"
+	},
+	{
+		"original_signal": "s_per_state",
+		"obfuscated_signal" : "stJKKHMwnnuDbvJePCqglgUfBokPsn"
+	},
+	{
+		"original_signal": "i_reset_rst",
+		"obfuscated_signal" : "OIhOePZwcoYoueNikxKcPMrRMIvjwq"
+	},
+	{
+		"original_signal": "i_pulse_tdata",
+		"obfuscated_signal" : "JmCOdyyntMvARPlZKwBYONaltBEXtJ"
+	},
+	{
+		"original_signal": "o_detect_tflag",
+		"obfuscated_signal" : "AuiLhQcfOHJPtQdeUfszqyHhhtjAZQ"
+	},
+	{
+		"original_signal": "t_mode_state",
+		"obfuscated_signal" : "NaHRdiqjXAkHRFKnJTvvNLnnCqBHCb"
+	},
+	{
+		"original_signal": "g_detectiontime",
+		"obfuscated_signal" : "kkWulaqfbnuOGNHBndhnzIVIzkFpQJ"
+	},
+	{
+		"original_signal": "g_power2ratio",
+		"obfuscated_signal" : "BFaKyByLJgFwLaDfPfjUqzHFBVHvmk"
+	},
+]
