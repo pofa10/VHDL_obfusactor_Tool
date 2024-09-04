@@ -15,23 +15,23 @@ This project uses Python3 to obfuscate VHDL files. It is fast and easy to use. Y
 
 
 ## Screenshots
+![3](https://github.com/user-attachments/assets/07ed255e-4944-4dbd-840d-48525c86f121)
 
-![FirstPic](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![1](https://github.com/user-attachments/assets/dd648433-7abe-4258-9544-1ffb3eef781e)
 
 ## How to use
-1.Clone this repository or download from release page
+1.Clone this repository or download it from the release page
 
-2.install Python3 in your enviroment (windows, linux or mac)
+2.install Python3 in your environment (windows, Linux or Mac)
 
-3.Open `cmd` in windows or `terminal` in linux or mac.
+3.Open `cmd` in Windows or `terminal` in Linux or Mac.
 
-4.`cd` to directory of downloaded files.
+4.`cd` to the directory of downloaded files.
 
 5.type `py VHDL_Obfuscator_Tool.py YOUR_SRC_FOLDER_PATH YOUR_DIST_FOLDER_PATH`
 
 >**Note**:
->don't worry about your original files, this app never overwrites them.
+> Don't worry about your original files, this app never overwrites them.
 
 
 ## Notice
@@ -39,8 +39,8 @@ This project uses Python3 to obfuscate VHDL files. It is fast and easy to use. Y
 * Must use `entity.work` for declaration of ipcores instead of using component
 * Don't use the same signal name as ipcores ports in all VHDL files
 * May need to modify some files in conflict by ipcores or Verilog files
-## Donate
-if you enjoy it or you wanna help the author for more open-source projects, you can support them from here.
+## Support and Donate
+if you enjoy it or wanna help the author for more open-source projects, give it a ⭐️ and you can support them from here.
 
 * BTC: `bc1qpprd4ug9s4ws66mwqx0xypdcx7e200jzfjkeum`
 * ETH: `0xB9E09Ff8757C4233371C9Bf5109E528dAd9daE19`
@@ -57,8 +57,6 @@ if you live in Iran 🇮🇷, can use the link below:
 
 
 ## Feedback
-if you find it useful star this repository 
-
 if you have any suggestions and ideas or fixing bugs, please feel free to connect with me:
 farrokhi.pourya@gmail.com
 
