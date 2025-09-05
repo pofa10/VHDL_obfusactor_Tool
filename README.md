@@ -30,8 +30,9 @@ This project uses Python3 to obfuscate VHDL files. It is fast and easy to use. Y
 
 5.type `py VHDL_Obfuscator_Tool.py YOUR_SRC_FOLDER_PATH YOUR_DIST_FOLDER_PATH`
 
+(Use the '/' Character instead of the '\' for path definition)
+
 >**Note**:
-> Use the '/' Character instead of the '\' for path definition.
 > Don't worry about your original files, this app never overwrites them.
 
 
