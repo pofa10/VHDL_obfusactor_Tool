@@ -15,14 +15,14 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity Channel is
     generic (
-        kkWulaqfbnuOGNHBndhnzIVIzkFpQJ : INTEGER := 1; 
-        BFaKyByLJgFwLaDfPfjUqzHFBVHvmk   : INTEGER := 4 
+        ElqhWcCnRyNSZtaXUYBYjPsneyqHVC : INTEGER := 1; 
+        QjMnmkPRAojftJOOPhIaFMcfwOFeqO   : INTEGER := 4 
     );
     Port (
-        npuuXXSUQcmoLTQRyWGbwKWdGDhcuR          : in  STD_LOGIC;
-        OIhOePZwcoYoueNikxKcPMrRMIvjwq    : in  STD_LOGIC;
-        JmCOdyyntMvARPlZKwBYONaltBEXtJ  : in  STD_LOGIC;
-        AuiLhQcfOHJPtQdeUfszqyHhhtjAZQ : out STD_LOGIC
+        AhFpJhSxuRZxlhVTGeDFtUpcCqKYTi          : in  STD_LOGIC;
+        nZJmDrPzfRShMYSClLhQREjwJQdthx    : in  STD_LOGIC;
+        VYMvNgGIoSWHIahhYEpzLWeJtGAsjl  : in  STD_LOGIC;
+        pgOWGeyFlmchddrLBvgDDEsSLppLzK : out STD_LOGIC
     );
 end Channel;
 
@@ -30,119 +30,119 @@ end Channel;
 architecture Behavioral of Channel is
 
     
-    CONSTANT dmIEscdBIcEbIigxYveYNUvHJCyQLu    : INTEGER := 10;
-    CONSTANT yPqlUILAmaZkROjLBfMfhLahlEFelk  : INTEGER := (kkWulaqfbnuOGNHBndhnzIVIzkFpQJ * 1_000_000 / dmIEscdBIcEbIigxYveYNUvHJCyQLu);
-    CONSTANT ssoMmMPderLvHKyOxQDcobYxIugCkL : INTEGER := (2**BFaKyByLJgFwLaDfPfjUqzHFBVHvmk);
+    CONSTANT uwkMPkcPFGUxuUnOkmTMFLIqsOgjMq    : INTEGER := 10;
+    CONSTANT BiMNwdhJGPmRjVdJHauXXSnNdfXbTw  : INTEGER := (ElqhWcCnRyNSZtaXUYBYjPsneyqHVC * 1_000_000 / uwkMPkcPFGUxuUnOkmTMFLIqsOgjMq);
+    CONSTANT IyOQTrauNVCDkEocohAJMeExRPcfXf : INTEGER := (2**QjMnmkPRAojftJOOPhIaFMcfwOFeqO);
     
-    SIGNAL MMipPVXvoiDrxJbkzLlhADGomAEcVS      : STD_LOGIC := '0';
-    SIGNAL MXTIwBWPdpnActpGaJwdMqeZwvjATa  : STD_LOGIC := '0';
-    SIGNAL JpFGVKwZhTWgZThOYWgzOIUWoycoqj : STD_LOGIC := '0';
+    SIGNAL PQDhjQkYhKEBKTWGHzTaBZnoImKWmL      : STD_LOGIC := '0';
+    SIGNAL YXvfmAuxVxhCDBnXnSRpNrZGTkuDEU  : STD_LOGIC := '0';
+    SIGNAL HnVCfwACGYUjuKWKQBDIjFaBTnxYgb : STD_LOGIC := '0';
 
 
-    SIGNAL rODUbaValjKlEUzaIWmXCkORUQRSSq : UNSIGNED (7 downto 0)  := (others => '0');
-    SIGNAL bULREFVOVslJjTSkSIPGJApHTJnbrU  : UNSIGNED (31 downto 0) := (others => '0');
-
-    
-    SIGNAL cGcDdQARpOVgTMKEReVDgggtqrSSoN : UNSIGNED (7 downto 0)  := (others => '0');
-    SIGNAL frmcWAzwlqjINPhevLQVMiToBYHGiU  : UNSIGNED (31 downto 0) := (others => '0');
-
-    SIGNAL WGuQRREPvZfFnvhwNfqKXGaxXnWMDD        : UNSIGNED (15 downto 0) := (others => '0');
-    SIGNAL lkWJBHMJAWqvbqjJwVvNOtqlahDPnh    : UNSIGNED (15 downto 0) := (others => '0');
-    SIGNAL RAdkUHgdmqYQNXbIDKTvjHHvFLFOVN    : UNSIGNED (15 downto 0) := (others => '0');
-    SIGNAL ODtaUxltvKpEsGwfechljZLfNRzbyJ     : UNSIGNED (15 downto 0) := (others => '0');
-    SIGNAL tUqNcyoUwfoldIbgaDlTJKUtfpBgTj : UNSIGNED (15 downto 0) := (others => '0');
-    SIGNAL VBoWsjpcYNAXkJzkifotjugesniJKp        : UNSIGNED (1 downto 0)  := (others => '0');
+    SIGNAL SJbdrENhjvUYVaJbyQSyUuihtBpmHS : UNSIGNED (7 downto 0)  := (others => '0');
+    SIGNAL qNjanapjHsLiYnXWNqskoSlrrHzvXb  : UNSIGNED (31 downto 0) := (others => '0');
 
     
-    SIGNAL pnlhmgECzBWbwQvvWUBNEEYwBoxUpS  : STD_LOGIC := '0';
-    SIGNAL OUlfbMvvajWfjUgBrnkteyqCVqrApp : STD_LOGIC := '0';
-    SIGNAL LYzXknQxdbjkpTnWbZoMUbZzvIUiAh    : STD_LOGIC := '0';
+    SIGNAL RyBqoxwPNeKLoaBedHkrvstJpNQqyW : UNSIGNED (7 downto 0)  := (others => '0');
+    SIGNAL iVmMLWWYMvCPKFjjzjCHQauCnOYQma  : UNSIGNED (31 downto 0) := (others => '0');
+
+    SIGNAL fuxySTrIYxUSQuxgOovoRKKQcPtOfz        : UNSIGNED (15 downto 0) := (others => '0');
+    SIGNAL lpFospvoTGYkWbuQiiYMxVVgtxGaTQ    : UNSIGNED (15 downto 0) := (others => '0');
+    SIGNAL LXNYPHamUWlKvbZUrNkgRrhLxDxRMF    : UNSIGNED (15 downto 0) := (others => '0');
+    SIGNAL rLkQoKTpJrmxkACMqpWhLBJitceQaD     : UNSIGNED (15 downto 0) := (others => '0');
+    SIGNAL BTDboMxuwUHgXaOopteVVYNpAJQZWl : UNSIGNED (15 downto 0) := (others => '0');
+    SIGNAL VUFTfcgCwLzCeLbvKQIEYPDlUvRoVD        : UNSIGNED (1 downto 0)  := (others => '0');
+
+    
+    SIGNAL MqPPCeCuVFHGApzLDJCSroQaWnrodr  : STD_LOGIC := '0';
+    SIGNAL avqRNTtKkhcIPMlALOkcVcituyTxRK : STD_LOGIC := '0';
+    SIGNAL jokIPJtUAacEwaaqjMXVOtxBNkebOd    : STD_LOGIC := '0';
 
     
     
-    type NaHRdiqjXAkHRFKnJTvvNLnnCqBHCb is (init_st,Comparison_st);
-    SIGNAL stJKKHMwnnuDbvJePCqglgUfBokPsn : NaHRdiqjXAkHRFKnJTvvNLnnCqBHCb := init_st;
+    type uhUHwXcTESolfetLVbFDqbTBmEvPAc is (init_st,Comparison_st);
+    SIGNAL vqnLvWekrgGvdcMrjlllHPGagINMQk : uhUHwXcTESolfetLVbFDqbTBmEvPAc := init_st;
 
 
 begin
 
-    PulseCntr_proc0 : process(npuuXXSUQcmoLTQRyWGbwKWdGDhcuR)
+    PulseCntr_proc0 : process(AhFpJhSxuRZxlhVTGeDFtUpcCqKYTi)
     begin
 
-        if (OIhOePZwcoYoueNikxKcPMrRMIvjwq = '1') then
-            rODUbaValjKlEUzaIWmXCkORUQRSSq     <= (others => '0');
-            RAdkUHgdmqYQNXbIDKTvjHHvFLFOVN <= (others => '0');
-            WGuQRREPvZfFnvhwNfqKXGaxXnWMDD     <= (others => '0');
-            stJKKHMwnnuDbvJePCqglgUfBokPsn           <= init_st;
+        if (nZJmDrPzfRShMYSClLhQREjwJQdthx = '1') then
+            SJbdrENhjvUYVaJbyQSyUuihtBpmHS     <= (others => '0');
+            LXNYPHamUWlKvbZUrNkgRrhLxDxRMF <= (others => '0');
+            fuxySTrIYxUSQuxgOovoRKKQcPtOfz     <= (others => '0');
+            vqnLvWekrgGvdcMrjlllHPGagINMQk           <= init_st;
 
 
-        elsif rising_edge(npuuXXSUQcmoLTQRyWGbwKWdGDhcuR) then
-
-            
-            MXTIwBWPdpnActpGaJwdMqeZwvjATa <= MMipPVXvoiDrxJbkzLlhADGomAEcVS;
+        elsif rising_edge(AhFpJhSxuRZxlhVTGeDFtUpcCqKYTi) then
 
             
-            bULREFVOVslJjTSkSIPGJApHTJnbrU <= bULREFVOVslJjTSkSIPGJApHTJnbrU + 1;
+            YXvfmAuxVxhCDBnXnSRpNrZGTkuDEU <= PQDhjQkYhKEBKTWGHzTaBZnoImKWmL;
 
             
-            pnlhmgECzBWbwQvvWUBNEEYwBoxUpS  <= '0';
-            OUlfbMvvajWfjUgBrnkteyqCVqrApp <= '0';
+            qNjanapjHsLiYnXWNqskoSlrrHzvXb <= qNjanapjHsLiYnXWNqskoSlrrHzvXb + 1;
 
-            if (JpFGVKwZhTWgZThOYWgzOIUWoycoqj = '1') then
-                WGuQRREPvZfFnvhwNfqKXGaxXnWMDD <= WGuQRREPvZfFnvhwNfqKXGaxXnWMDD + 1;
+            
+            MqPPCeCuVFHGApzLDJCSroQaWnrodr  <= '0';
+            avqRNTtKkhcIPMlALOkcVcituyTxRK <= '0';
+
+            if (HnVCfwACGYUjuKWKQBDIjFaBTnxYgb = '1') then
+                fuxySTrIYxUSQuxgOovoRKKQcPtOfz <= fuxySTrIYxUSQuxgOovoRKKQcPtOfz + 1;
             end if;
 
-            if (rODUbaValjKlEUzaIWmXCkORUQRSSq = cGcDdQARpOVgTMKEReVDgggtqrSSoN) then
+            if (SJbdrENhjvUYVaJbyQSyUuihtBpmHS = RyBqoxwPNeKLoaBedHkrvstJpNQqyW) then
 
-                OUlfbMvvajWfjUgBrnkteyqCVqrApp <= '1';
-                case BFaKyByLJgFwLaDfPfjUqzHFBVHvmk is
+                avqRNTtKkhcIPMlALOkcVcituyTxRK <= '1';
+                case QjMnmkPRAojftJOOPhIaFMcfwOFeqO is
                     when 4 =>
-                        RAdkUHgdmqYQNXbIDKTvjHHvFLFOVN <= x"0" & lkWJBHMJAWqvbqjJwVvNOtqlahDPnh(15 downto BFaKyByLJgFwLaDfPfjUqzHFBVHvmk);
+                        LXNYPHamUWlKvbZUrNkgRrhLxDxRMF <= x"0" & lpFospvoTGYkWbuQiiYMxVVgtxGaTQ(15 downto QjMnmkPRAojftJOOPhIaFMcfwOFeqO);
 
                     when 5 =>
-                        RAdkUHgdmqYQNXbIDKTvjHHvFLFOVN <= "00000" & lkWJBHMJAWqvbqjJwVvNOtqlahDPnh(15 downto BFaKyByLJgFwLaDfPfjUqzHFBVHvmk);
+                        LXNYPHamUWlKvbZUrNkgRrhLxDxRMF <= "00000" & lpFospvoTGYkWbuQiiYMxVVgtxGaTQ(15 downto QjMnmkPRAojftJOOPhIaFMcfwOFeqO);
 
                     when 6 =>
-                        RAdkUHgdmqYQNXbIDKTvjHHvFLFOVN <= "000000" & lkWJBHMJAWqvbqjJwVvNOtqlahDPnh(15 downto BFaKyByLJgFwLaDfPfjUqzHFBVHvmk);
+                        LXNYPHamUWlKvbZUrNkgRrhLxDxRMF <= "000000" & lpFospvoTGYkWbuQiiYMxVVgtxGaTQ(15 downto QjMnmkPRAojftJOOPhIaFMcfwOFeqO);
 
                     when others =>
                         Null;
 
                 end case;
 
-                lkWJBHMJAWqvbqjJwVvNOtqlahDPnh <= (others => '0');
-                rODUbaValjKlEUzaIWmXCkORUQRSSq     <= (others => '0');
+                lpFospvoTGYkWbuQiiYMxVVgtxGaTQ <= (others => '0');
+                SJbdrENhjvUYVaJbyQSyUuihtBpmHS     <= (others => '0');
 
-            elsif (bULREFVOVslJjTSkSIPGJApHTJnbrU = frmcWAzwlqjINPhevLQVMiToBYHGiU) then
+            elsif (qNjanapjHsLiYnXWNqskoSlrrHzvXb = iVmMLWWYMvCPKFjjzjCHQauCnOYQma) then
 
-                pnlhmgECzBWbwQvvWUBNEEYwBoxUpS     <= '1';
-                ODtaUxltvKpEsGwfechljZLfNRzbyJ <= WGuQRREPvZfFnvhwNfqKXGaxXnWMDD;
+                MqPPCeCuVFHGApzLDJCSroQaWnrodr     <= '1';
+                rLkQoKTpJrmxkACMqpWhLBJitceQaD <= fuxySTrIYxUSQuxgOovoRKKQcPtOfz;
                 
-                rODUbaValjKlEUzaIWmXCkORUQRSSq     <= rODUbaValjKlEUzaIWmXCkORUQRSSq + 1;
-                lkWJBHMJAWqvbqjJwVvNOtqlahDPnh <= lkWJBHMJAWqvbqjJwVvNOtqlahDPnh + ODtaUxltvKpEsGwfechljZLfNRzbyJ;
+                SJbdrENhjvUYVaJbyQSyUuihtBpmHS     <= SJbdrENhjvUYVaJbyQSyUuihtBpmHS + 1;
+                lpFospvoTGYkWbuQiiYMxVVgtxGaTQ <= lpFospvoTGYkWbuQiiYMxVVgtxGaTQ + rLkQoKTpJrmxkACMqpWhLBJitceQaD;
                 
-                bULREFVOVslJjTSkSIPGJApHTJnbrU  <= (others => '0');
-                WGuQRREPvZfFnvhwNfqKXGaxXnWMDD <= (others => '0');
+                qNjanapjHsLiYnXWNqskoSlrrHzvXb  <= (others => '0');
+                fuxySTrIYxUSQuxgOovoRKKQcPtOfz <= (others => '0');
 
             end if;
 
-            case stJKKHMwnnuDbvJePCqglgUfBokPsn is
+            case vqnLvWekrgGvdcMrjlllHPGagINMQk is
                 when init_st =>
-                    if (VBoWsjpcYNAXkJzkifotjugesniJKp = "10") then
-                        stJKKHMwnnuDbvJePCqglgUfBokPsn <= Comparison_st;
-                    elsif (OUlfbMvvajWfjUgBrnkteyqCVqrApp = '1') then
-                        VBoWsjpcYNAXkJzkifotjugesniJKp <= VBoWsjpcYNAXkJzkifotjugesniJKp + 1;
-                        stJKKHMwnnuDbvJePCqglgUfBokPsn       <= init_st;
+                    if (VUFTfcgCwLzCeLbvKQIEYPDlUvRoVD = "10") then
+                        vqnLvWekrgGvdcMrjlllHPGagINMQk <= Comparison_st;
+                    elsif (avqRNTtKkhcIPMlALOkcVcituyTxRK = '1') then
+                        VUFTfcgCwLzCeLbvKQIEYPDlUvRoVD <= VUFTfcgCwLzCeLbvKQIEYPDlUvRoVD + 1;
+                        vqnLvWekrgGvdcMrjlllHPGagINMQk       <= init_st;
                     else
-                        stJKKHMwnnuDbvJePCqglgUfBokPsn <= init_st;
+                        vqnLvWekrgGvdcMrjlllHPGagINMQk <= init_st;
                     end if;
 
                 when Comparison_st =>
                     
-                    if (pnlhmgECzBWbwQvvWUBNEEYwBoxUpS = '1') AND (ODtaUxltvKpEsGwfechljZLfNRzbyJ > tUqNcyoUwfoldIbgaDlTJKUtfpBgTj) then
-                        LYzXknQxdbjkpTnWbZoMUbZzvIUiAh <= '1';
+                    if (MqPPCeCuVFHGApzLDJCSroQaWnrodr = '1') AND (rLkQoKTpJrmxkACMqpWhLBJitceQaD > BTDboMxuwUHgXaOopteVVYNpAJQZWl) then
+                        jokIPJtUAacEwaaqjMXVOtxBNkebOd <= '1';
                     else
-                        LYzXknQxdbjkpTnWbZoMUbZzvIUiAh <= '0';
+                        jokIPJtUAacEwaaqjMXVOtxBNkebOd <= '0';
                     end if;
             end case;
 
@@ -152,17 +152,17 @@ begin
 
     
     
-    tUqNcyoUwfoldIbgaDlTJKUtfpBgTj <= RAdkUHgdmqYQNXbIDKTvjHHvFLFOVN + ("000" & RAdkUHgdmqYQNXbIDKTvjHHvFLFOVN(15 downto 3));
+    BTDboMxuwUHgXaOopteVVYNpAJQZWl <= LXNYPHamUWlKvbZUrNkgRrhLxDxRMF + ("000" & LXNYPHamUWlKvbZUrNkgRrhLxDxRMF(15 downto 3));
 
     
-    JpFGVKwZhTWgZThOYWgzOIUWoycoqj <= NOT(MXTIwBWPdpnActpGaJwdMqeZwvjATa) AND MMipPVXvoiDrxJbkzLlhADGomAEcVS;
+    HnVCfwACGYUjuKWKQBDIjFaBTnxYgb <= NOT(YXvfmAuxVxhCDBnXnSRpNrZGTkuDEU) AND PQDhjQkYhKEBKTWGHzTaBZnoImKWmL;
 
     
-    cGcDdQARpOVgTMKEReVDgggtqrSSoN <= to_unsigned(ssoMmMPderLvHKyOxQDcobYxIugCkL,cGcDdQARpOVgTMKEReVDgggtqrSSoN'length);
-    frmcWAzwlqjINPhevLQVMiToBYHGiU  <= to_unsigned(yPqlUILAmaZkROjLBfMfhLahlEFelk,frmcWAzwlqjINPhevLQVMiToBYHGiU'length);
+    RyBqoxwPNeKLoaBedHkrvstJpNQqyW <= to_unsigned(IyOQTrauNVCDkEocohAJMeExRPcfXf,RyBqoxwPNeKLoaBedHkrvstJpNQqyW'length);
+    iVmMLWWYMvCPKFjjzjCHQauCnOYQma  <= to_unsigned(BiMNwdhJGPmRjVdJHauXXSnNdfXbTw,iVmMLWWYMvCPKFjjzjCHQauCnOYQma'length);
 
     
-    MMipPVXvoiDrxJbkzLlhADGomAEcVS  <= JmCOdyyntMvARPlZKwBYONaltBEXtJ;
-    AuiLhQcfOHJPtQdeUfszqyHhhtjAZQ <= LYzXknQxdbjkpTnWbZoMUbZzvIUiAh;
+    PQDhjQkYhKEBKTWGHzTaBZnoImKWmL  <= VYMvNgGIoSWHIahhYEpzLWeJtGAsjl;
+    pgOWGeyFlmchddrLBvgDDEsSLppLzK <= jokIPJtUAacEwaaqjMXVOtxBNkebOd;
 
 end Behavioral;

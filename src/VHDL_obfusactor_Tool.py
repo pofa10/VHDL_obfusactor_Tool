@@ -4,18 +4,13 @@ import os
 from pathlib import Path
 import argparse
 
-# parser = argparse.ArgumentParser(description="Please determine source and destination directory of VHDL files")
-# parser.add_argument("SRC", type=str, help="PLEASE SET SOURCE FILES DIRECTROY")
-# parser.add_argument("DIST", type=str, help="PLEASE SET DISTINATION FILES DIRECTROY")
-# args = parser.parse_args()
+parser = argparse.ArgumentParser(description="Please determine source and destination directory of VHDL files")
+parser.add_argument("SRC", type=str, help="PLEASE SET SOURCE FILES DIRECTROY")
+parser.add_argument("DIST", type=str, help="PLEASE SET DISTINATION FILES DIRECTROY")
+args = parser.parse_args()
 
-# SRC_Dir = args.SRC
-# DIST_Dir = args.DIST
-
-
-SRC_Dir = "..\Example\input"
-DIST_Dir = "..\Example\output"
-
+SRC_Dir = args.SRC
+DIST_Dir = args.DIST
 
 
 source_to_obfusacte = []
@@ -70,7 +65,9 @@ def get_token(files_list):
                 parameter_pattern = r'([a-zA-Z_][a-zA-Z0-9_]*)\s*:\s*[a-zA-Z_][a-zA-Z0-9_]*'
                 Generic_file = re.findall(parameter_pattern, generic_block)
 
-            tokens_file = Sig_file + inout_file + type_file + Generic_file
+                tokens_file = Sig_file + inout_file + type_file + Generic_file
+            else:
+                tokens_file = Sig_file + inout_file + type_file
             # Put all the tokens in lowercase
             tokens_lowercase = [token.lower() for token in tokens_file]
             # Consider tokens which are no keywords and not numeric

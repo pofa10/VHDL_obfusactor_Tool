@@ -9,43 +9,43 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity milliSec_Timer is
 	generic(
-		QRYwJhgcjocjhmlsVQFBDUYOgKlAJd : INTEGER := 100 
+		IFRjwQFpuSctBPsDJVODQkzdqnIXIW : INTEGER := 100 
 	);
 	Port (
-		cSrNJqgEuoWvjlecoaCjtEkbfdggtL        : in  STD_LOGIC;
-		npuuXXSUQcmoLTQRyWGbwKWdGDhcuR           : in  STD_LOGIC;
-		pqnCozObfzpmbsPybhnHDkqjbOHuWx : out STD_LOGIC
+		bSPxAQBVeAcvvyoZCZmlYxPzwVTHDS        : in  STD_LOGIC;
+		AhFpJhSxuRZxlhVTGeDFtUpcCqKYTi           : in  STD_LOGIC;
+		IiJHIEIcwNmvPVhzTplrBQVMBIjEHa : out STD_LOGIC
 	);
 end milliSec_Timer;
 
 architecture Behavioral of milliSec_Timer is
 
-	CONSTANT dmIEscdBIcEbIigxYveYNUvHJCyQLu   : INTEGER               := 1000 / QRYwJhgcjocjhmlsVQFBDUYOgKlAJd; 
-	CONSTANT CbAAokzJsHggOLjNukggFxYzOFSnhX    : INTEGER               := 1e6;           
-	SIGNAL iOcVWnjJjyyLkaIqRoyBrOcztatImj      : INTEGER               := CbAAokzJsHggOLjNukggFxYzOFSnhX/dmIEscdBIcEbIigxYveYNUvHJCyQLu;
-	SIGNAL JATyTvwnfurkarMuAPVitdiDzsNdbZ : UNSIGNED(31 downto 0) := (others => '0');
-	SIGNAL jelHSHmSEWtwMxmUWyJVWrXgSihMZX : STD_LOGIC             := '0';
+	CONSTANT uwkMPkcPFGUxuUnOkmTMFLIqsOgjMq   : INTEGER               := 1000 / IFRjwQFpuSctBPsDJVODQkzdqnIXIW; 
+	CONSTANT uFtWADrnwpENoGGFAeQinNOgxLFtqV    : INTEGER               := 1e6;           
+	SIGNAL SutvGFYyzxhQrJrqiOZNDSoJrZqadO      : INTEGER               := uFtWADrnwpENoGGFAeQinNOgxLFtqV/uwkMPkcPFGUxuUnOkmTMFLIqsOgjMq;
+	SIGNAL WWsyBUGWNesFypzuVFhryFdJbKlEsz : UNSIGNED(31 downto 0) := (others => '0');
+	SIGNAL leqsfBGvNYWMpjvnaEtxHSdZSMsLEp : STD_LOGIC             := '0';
 
 begin
 
-	process(npuuXXSUQcmoLTQRyWGbwKWdGDhcuR)
+	process(AhFpJhSxuRZxlhVTGeDFtUpcCqKYTi)
 	begin
-		if (cSrNJqgEuoWvjlecoaCjtEkbfdggtL = '0') then
-			jelHSHmSEWtwMxmUWyJVWrXgSihMZX <= '0';
-			JATyTvwnfurkarMuAPVitdiDzsNdbZ <= (others => '0');
+		if (bSPxAQBVeAcvvyoZCZmlYxPzwVTHDS = '0') then
+			leqsfBGvNYWMpjvnaEtxHSdZSMsLEp <= '0';
+			WWsyBUGWNesFypzuVFhryFdJbKlEsz <= (others => '0');
 
-		elsif rising_edge(npuuXXSUQcmoLTQRyWGbwKWdGDhcuR) then
+		elsif rising_edge(AhFpJhSxuRZxlhVTGeDFtUpcCqKYTi) then
 
-			JATyTvwnfurkarMuAPVitdiDzsNdbZ <= JATyTvwnfurkarMuAPVitdiDzsNdbZ + 1;
-			jelHSHmSEWtwMxmUWyJVWrXgSihMZX <= '0';
-			if (JATyTvwnfurkarMuAPVitdiDzsNdbZ = iOcVWnjJjyyLkaIqRoyBrOcztatImj - 1) then
-				jelHSHmSEWtwMxmUWyJVWrXgSihMZX <= '1';
-				JATyTvwnfurkarMuAPVitdiDzsNdbZ <= (others => '0');
+			WWsyBUGWNesFypzuVFhryFdJbKlEsz <= WWsyBUGWNesFypzuVFhryFdJbKlEsz + 1;
+			leqsfBGvNYWMpjvnaEtxHSdZSMsLEp <= '0';
+			if (WWsyBUGWNesFypzuVFhryFdJbKlEsz = SutvGFYyzxhQrJrqiOZNDSoJrZqadO - 1) then
+				leqsfBGvNYWMpjvnaEtxHSdZSMsLEp <= '1';
+				WWsyBUGWNesFypzuVFhryFdJbKlEsz <= (others => '0');
 			end if;
 
 		end if;
 	end process;
 
-	pqnCozObfzpmbsPybhnHDkqjbOHuWx <= jelHSHmSEWtwMxmUWyJVWrXgSihMZX;
+	IiJHIEIcwNmvPVhzTplrBQVMBIjEHa <= leqsfBGvNYWMpjvnaEtxHSdZSMsLEp;
 
 end Behavioral;
